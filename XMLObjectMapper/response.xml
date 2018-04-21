@@ -1,0 +1,14 @@
+<?xml version="1.0" ?>
+<errors xmlns="urn:ietf:params:xml:ns:yang:ietf-restconf">
+    <error>
+        <error-type>application</error-type>
+        <error-tag>operation-failed</error-tag>
+        <error-app-tag>Error</error-app-tag>
+        <error-path>/rest/login</error-path>
+        <error-message>Max sessions reached</error-message>
+        <error-info>
+            <error-code>39</error-code>
+            <error-module>auth</error-module>
+        </error-info>
+    </error>
+</errors>
